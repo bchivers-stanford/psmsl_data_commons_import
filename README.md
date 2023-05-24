@@ -11,7 +11,7 @@ Author: Brian Chivers
 
 
 ### Download URL
-RLR Monthly Mean data is available at teh following URL: 
+RLR Monthly Mean data is available at the following URL: 
 [Download Page](https://psmsl.org/data/obtaining/complete.php)
 
 ### Overview
