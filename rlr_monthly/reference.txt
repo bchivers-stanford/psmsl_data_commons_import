@@ -4,7 +4,7 @@ example, "the tide gauge data [Holgate et al., 2013; PSMSL, 2023] show
 that ..."
 
 Permanent Service for Mean Sea Level (PSMSL), 2023, "Tide Gauge Data", 
-Retrieved 15 May 2023 from http://www.psmsl.org/data/obtaining/. 
+Retrieved 28 Aug 2023 from http://www.psmsl.org/data/obtaining/. 
 
 Simon J. Holgate, Andrew Matthews, Philip L. Woodworth, Lesley J. Rickards, 
 Mark E. Tamisiea, Elizabeth Bradshaw, Peter R. Foden, Kathleen M. Gordon,

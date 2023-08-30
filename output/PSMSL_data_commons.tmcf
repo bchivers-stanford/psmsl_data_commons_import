@@ -1,7 +1,7 @@
 Node: E:CSVTable->E0
 typeOf: dcs:StatVarObservation
 observationDate: C:CSVTable->date
-observationAbout: C:CSVTable->dcid:TideGaugeStation
+observationAbout: C:CSVTable->TideGaugeStation
 value: C:CSVTable->height
 unit: C:CSVTable->unit
 variableMeasured: dcid:Mean_RevisedLocalReference_SeaLevel

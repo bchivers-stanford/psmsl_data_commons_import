@@ -1,0 +1,4831 @@
+{
+  "levelSummary": {
+    "LEVEL_INFO": {
+      "counters": {
+        "NumRowSuccesses": "781927",
+        "NumPVSuccesses": "6255416",
+        "Existence_NumChecks": "6255441",
+        "NumNodeSuccesses": "781927",
+        "Existence_NumDcCalls": "2"
+      }
+    },
+    "LEVEL_WARNING": {
+      "counters": {
+        "Sanity_MissingOrEmpty_populationType": "1",
+        "StatsCheck_3_Sigma": "364",
+        "Existence_MissingReference_Property": "1",
+        "StatsCheck_MaxPercentFluctuationGreaterThan500": "24",
+        "Existence_MissingReference_unit": "781927"
+      }
+    }
+  },
+  "entries": [{
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "schema.mcf",
+      "lineNumber": "12"
+    },
+    "userMessage": "Found a missing or empty property value :: property: 'populationType', node: 'dcid:Mean_RevisedLocalReference_SeaLevel', type: 'StatisticalVariable'",
+    "counterKey": "Sanity_MissingOrEmpty_populationType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "schema.mcf",
+      "lineNumber": "6"
+    },
+    "userMessage": "Failed reference existence check :: property-ref: 'isOverrideSvgRoot', node: 'dcid:dc/g/Stanford_Center_For_Ocean_Solutions'",
+    "counterKey": "Existence_MissingReference_Property"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "2"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "3"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "4"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "5"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "6"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "7"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "8"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "9"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "10"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "11"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "12"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "13"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "14"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "15"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "16"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "17"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "18"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "19"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "20"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "21"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "22"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "23"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "24"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "25"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "26"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "27"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "28"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "29"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "30"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "PSMSL_data_commons.csv",
+      "lineNumber": "31"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'mm', property: 'unit', node: 'E:CSVTable->E0'",
+    "counterKey": "Existence_MissingReference_unit"
+  }],
+  "statsCheckSummary": [{
+    "placeDcid": "psmslId/674",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "1952-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6863",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7907"
+          }]
+        }]
+      }, {
+        "date": "1952-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7908"
+          }]
+        }]
+      }],
+      "percentDifference": -1557.07
+    }]
+  }, {
+    "placeDcid": "psmslId/159",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "1946-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8198"
+          }]
+        }]
+      }, {
+        "date": "1946-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8199"
+          }]
+        }]
+      }, {
+        "date": "1946-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8200"
+          }]
+        }]
+      }, {
+        "date": "1946-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8201"
+          }]
+        }]
+      }, {
+        "date": "1946-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8202"
+          }]
+        }]
+      }, {
+        "date": "1946-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8203"
+          }]
+        }]
+      }, {
+        "date": "1946-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8204"
+          }]
+        }]
+      }, {
+        "date": "1946-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8205"
+          }]
+        }]
+      }, {
+        "date": "1946-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8206"
+          }]
+        }]
+      }, {
+        "date": "1946-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8207"
+          }]
+        }]
+      }, {
+        "date": "1946-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8208"
+          }]
+        }]
+      }, {
+        "date": "1946-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8209"
+          }]
+        }]
+      }, {
+        "date": "1947-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8210"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "1945-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6983",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8197"
+          }]
+        }]
+      }, {
+        "date": "1946-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8198"
+          }]
+        }]
+      }],
+      "percentDifference": -1532.03
+    }]
+  }, {
+    "placeDcid": "psmslId/879",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "1960-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7010"
+          }]
+        }]
+      }, {
+        "date": "1962-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7034"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "1962-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6859",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7033"
+          }]
+        }]
+      }, {
+        "date": "1962-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7034"
+          }]
+        }]
+      }],
+      "percentDifference": -1557.92
+    }]
+  }, {
+    "placeDcid": "psmslId/418",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "1942-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9304"
+          }]
+        }]
+      }, {
+        "date": "1942-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9305"
+          }]
+        }]
+      }, {
+        "date": "1942-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9306"
+          }]
+        }]
+      }, {
+        "date": "1942-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9307"
+          }]
+        }]
+      }, {
+        "date": "1942-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9308"
+          }]
+        }]
+      }, {
+        "date": "1943-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9309"
+          }]
+        }]
+      }, {
+        "date": "1943-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9310"
+          }]
+        }]
+      }, {
+        "date": "1943-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9311"
+          }]
+        }]
+      }, {
+        "date": "1943-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9312"
+          }]
+        }]
+      }, {
+        "date": "1943-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9313"
+          }]
+        }]
+      }, {
+        "date": "1943-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9314"
+          }]
+        }]
+      }, {
+        "date": "1943-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9315"
+          }]
+        }]
+      }, {
+        "date": "1943-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9316"
+          }]
+        }]
+      }, {
+        "date": "1943-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9317"
+          }]
+        }]
+      }, {
+        "date": "1943-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9318"
+          }]
+        }]
+      }, {
+        "date": "1943-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9319"
+          }]
+        }]
+      }, {
+        "date": "1943-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9320"
+          }]
+        }]
+      }, {
+        "date": "1946-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9347"
+          }]
+        }]
+      }, {
+        "date": "1946-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9348"
+          }]
+        }]
+      }, {
+        "date": "1946-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9349"
+          }]
+        }]
+      }, {
+        "date": "1946-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9350"
+          }]
+        }]
+      }, {
+        "date": "1946-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9351"
+          }]
+        }]
+      }, {
+        "date": "1946-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9352"
+          }]
+        }]
+      }, {
+        "date": "1946-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9353"
+          }]
+        }]
+      }, {
+        "date": "1946-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9354"
+          }]
+        }]
+      }, {
+        "date": "1946-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9355"
+          }]
+        }]
+      }, {
+        "date": "1946-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9356"
+          }]
+        }]
+      }, {
+        "date": "1947-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9357"
+          }]
+        }]
+      }, {
+        "date": "1947-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9358"
+          }]
+        }]
+      }, {
+        "date": "1947-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9359"
+          }]
+        }]
+      }, {
+        "date": "1959-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9507"
+          }]
+        }]
+      }, {
+        "date": "1959-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9508"
+          }]
+        }]
+      }, {
+        "date": "1959-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9509"
+          }]
+        }]
+      }, {
+        "date": "1959-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9510"
+          }]
+        }]
+      }, {
+        "date": "1959-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9511"
+          }]
+        }]
+      }, {
+        "date": "1959-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9512"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "1946-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6911",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9346"
+          }]
+        }]
+      }, {
+        "date": "1946-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "9347"
+          }]
+        }]
+      }],
+      "percentDifference": -1546.95
+    }]
+  }, {
+    "placeDcid": "psmslId/1548",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "1991-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7219"
+          }]
+        }]
+      }, {
+        "date": "1991-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7220"
+          }]
+        }]
+      }, {
+        "date": "1991-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7221"
+          }]
+        }]
+      }, {
+        "date": "1992-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7229"
+          }]
+        }]
+      }, {
+        "date": "1996-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7274"
+          }]
+        }]
+      }, {
+        "date": "1996-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7275"
+          }]
+        }]
+      }, {
+        "date": "1998-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7304"
+          }]
+        }]
+      }, {
+        "date": "1998-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7305"
+          }]
+        }]
+      }, {
+        "date": "1999-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7306"
+          }]
+        }]
+      }, {
+        "date": "1999-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7307"
+          }]
+        }]
+      }, {
+        "date": "1999-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7308"
+          }]
+        }]
+      }, {
+        "date": "1999-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7309"
+          }]
+        }]
+      }, {
+        "date": "1999-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7313"
+          }]
+        }]
+      }, {
+        "date": "1999-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7317"
+          }]
+        }]
+      }, {
+        "date": "2000-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7318"
+          }]
+        }]
+      }, {
+        "date": "2000-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7319"
+          }]
+        }]
+      }, {
+        "date": "2000-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7320"
+          }]
+        }]
+      }, {
+        "date": "2012-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7463"
+          }]
+        }]
+      }, {
+        "date": "2018-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7543"
+          }]
+        }]
+      }, {
+        "date": "2020-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7562"
+          }]
+        }]
+      }, {
+        "date": "2022-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7588"
+          }]
+        }]
+      }, {
+        "date": "2022-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7589"
+          }]
+        }]
+      }, {
+        "date": "2022-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7590"
+          }]
+        }]
+      }, {
+        "date": "2022-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7591"
+          }]
+        }]
+      }, {
+        "date": "2022-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7592"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "1996-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6892",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7273"
+          }]
+        }]
+      }, {
+        "date": "1996-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "7274"
+          }]
+        }]
+      }],
+      "percentDifference": -1550.94
+    }]
+  }, {
+    "placeDcid": "psmslId/1746",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "1994-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "62"
+          }]
+        }]
+      }, {
+        "date": "1995-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "78"
+          }]
+        }]
+      }, {
+        "date": "1995-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "79"
+          }]
+        }]
+      }, {
+        "date": "1995-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "82"
+          }]
+        }]
+      }, {
+        "date": "1995-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "83"
+          }]
+        }]
+      }, {
+        "date": "2001-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "151"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "1995-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6991",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "81"
+          }]
+        }]
+      }, {
+        "date": "1995-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "82"
+          }]
+        }]
+      }],
+      "percentDifference": -1530.4
+    }]
+  }, {
+    "placeDcid": "psmslId/12",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "1861-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2201"
+          }]
+        }]
+      }, {
+        "date": "1861-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2202"
+          }]
+        }]
+      }, {
+        "date": "1861-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2203"
+          }]
+        }]
+      }, {
+        "date": "1861-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2204"
+          }]
+        }]
+      }, {
+        "date": "1861-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2205"
+          }]
+        }]
+      }, {
+        "date": "1861-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2206"
+          }]
+        }]
+      }, {
+        "date": "1861-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2207"
+          }]
+        }]
+      }, {
+        "date": "1861-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2208"
+          }]
+        }]
+      }, {
+        "date": "1861-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2209"
+          }]
+        }]
+      }, {
+        "date": "1861-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2210"
+          }]
+        }]
+      }, {
+        "date": "1861-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2211"
+          }]
+        }]
+      }, {
+        "date": "1861-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2212"
+          }]
+        }]
+      }, {
+        "date": "1879-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2417"
+          }]
+        }]
+      }, {
+        "date": "1879-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2418"
+          }]
+        }]
+      }, {
+        "date": "1879-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2419"
+          }]
+        }]
+      }, {
+        "date": "1879-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2420"
+          }]
+        }]
+      }, {
+        "date": "1879-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2421"
+          }]
+        }]
+      }, {
+        "date": "1879-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2422"
+          }]
+        }]
+      }, {
+        "date": "1879-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2423"
+          }]
+        }]
+      }, {
+        "date": "1879-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2424"
+          }]
+        }]
+      }, {
+        "date": "1879-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2425"
+          }]
+        }]
+      }, {
+        "date": "1879-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2426"
+          }]
+        }]
+      }, {
+        "date": "1879-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2427"
+          }]
+        }]
+      }, {
+        "date": "1879-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2428"
+          }]
+        }]
+      }, {
+        "date": "1880-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2429"
+          }]
+        }]
+      }, {
+        "date": "1880-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2430"
+          }]
+        }]
+      }, {
+        "date": "1880-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2431"
+          }]
+        }]
+      }, {
+        "date": "1880-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2432"
+          }]
+        }]
+      }, {
+        "date": "1880-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2433"
+          }]
+        }]
+      }, {
+        "date": "1880-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2434"
+          }]
+        }]
+      }, {
+        "date": "1880-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2435"
+          }]
+        }]
+      }, {
+        "date": "1880-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2436"
+          }]
+        }]
+      }, {
+        "date": "1880-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2437"
+          }]
+        }]
+      }, {
+        "date": "1880-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2438"
+          }]
+        }]
+      }, {
+        "date": "1880-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2439"
+          }]
+        }]
+      }, {
+        "date": "1880-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2440"
+          }]
+        }]
+      }, {
+        "date": "1881-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2441"
+          }]
+        }]
+      }, {
+        "date": "1881-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2442"
+          }]
+        }]
+      }, {
+        "date": "1881-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2443"
+          }]
+        }]
+      }, {
+        "date": "1881-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2444"
+          }]
+        }]
+      }, {
+        "date": "1881-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2445"
+          }]
+        }]
+      }, {
+        "date": "1881-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2446"
+          }]
+        }]
+      }, {
+        "date": "1881-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2447"
+          }]
+        }]
+      }, {
+        "date": "1881-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2448"
+          }]
+        }]
+      }, {
+        "date": "1881-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2449"
+          }]
+        }]
+      }, {
+        "date": "1881-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2450"
+          }]
+        }]
+      }, {
+        "date": "1881-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2451"
+          }]
+        }]
+      }, {
+        "date": "1881-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2452"
+          }]
+        }]
+      }, {
+        "date": "1882-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2453"
+          }]
+        }]
+      }, {
+        "date": "1882-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2454"
+          }]
+        }]
+      }, {
+        "date": "1882-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2455"
+          }]
+        }]
+      }, {
+        "date": "1882-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2456"
+          }]
+        }]
+      }, {
+        "date": "1882-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2457"
+          }]
+        }]
+      }, {
+        "date": "1882-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2458"
+          }]
+        }]
+      }, {
+        "date": "1882-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2459"
+          }]
+        }]
+      }, {
+        "date": "1882-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2460"
+          }]
+        }]
+      }, {
+        "date": "1882-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2461"
+          }]
+        }]
+      }, {
+        "date": "1882-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2462"
+          }]
+        }]
+      }, {
+        "date": "1882-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2463"
+          }]
+        }]
+      }, {
+        "date": "1882-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2464"
+          }]
+        }]
+      }, {
+        "date": "1883-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2465"
+          }]
+        }]
+      }, {
+        "date": "1883-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2466"
+          }]
+        }]
+      }, {
+        "date": "1883-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2467"
+          }]
+        }]
+      }, {
+        "date": "1883-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2468"
+          }]
+        }]
+      }, {
+        "date": "1883-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2469"
+          }]
+        }]
+      }, {
+        "date": "1883-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2470"
+          }]
+        }]
+      }, {
+        "date": "1883-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2471"
+          }]
+        }]
+      }, {
+        "date": "1883-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2472"
+          }]
+        }]
+      }, {
+        "date": "1883-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2473"
+          }]
+        }]
+      }, {
+        "date": "1883-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2474"
+          }]
+        }]
+      }, {
+        "date": "1883-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2475"
+          }]
+        }]
+      }, {
+        "date": "1883-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2476"
+          }]
+        }]
+      }, {
+        "date": "1884-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2477"
+          }]
+        }]
+      }, {
+        "date": "1884-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2478"
+          }]
+        }]
+      }, {
+        "date": "1884-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2479"
+          }]
+        }]
+      }, {
+        "date": "1884-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2480"
+          }]
+        }]
+      }, {
+        "date": "1884-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2481"
+          }]
+        }]
+      }, {
+        "date": "1884-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2482"
+          }]
+        }]
+      }, {
+        "date": "1884-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2483"
+          }]
+        }]
+      }, {
+        "date": "1884-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2484"
+          }]
+        }]
+      }, {
+        "date": "1884-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2485"
+          }]
+        }]
+      }, {
+        "date": "1884-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2486"
+          }]
+        }]
+      }, {
+        "date": "1884-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2487"
+          }]
+        }]
+      }, {
+        "date": "1884-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2488"
+          }]
+        }]
+      }, {
+        "date": "1885-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2489"
+          }]
+        }]
+      }, {
+        "date": "1885-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2490"
+          }]
+        }]
+      }, {
+        "date": "1885-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2491"
+          }]
+        }]
+      }, {
+        "date": "1885-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2492"
+          }]
+        }]
+      }, {
+        "date": "1885-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2493"
+          }]
+        }]
+      }, {
+        "date": "1885-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2494"
+          }]
+        }]
+      }, {
+        "date": "1885-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2495"
+          }]
+        }]
+      }, {
+        "date": "1885-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2496"
+          }]
+        }]
+      }, {
+        "date": "1885-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2497"
+          }]
+        }]
+      }, {
+        "date": "1885-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2498"
+          }]
+        }]
+      }, {
+        "date": "1885-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2499"
+          }]
+        }]
+      }, {
+        "date": "1885-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2500"
+          }]
+        }]
+      }, {
+        "date": "1886-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2501"
+          }]
+        }]
+      }, {
+        "date": "1886-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2502"
+          }]
+        }]
+      }, {
+        "date": "1886-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2503"
+          }]
+        }]
+      }, {
+        "date": "1886-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2504"
+          }]
+        }]
+      }, {
+        "date": "1886-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2505"
+          }]
+        }]
+      }, {
+        "date": "1886-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2506"
+          }]
+        }]
+      }, {
+        "date": "1886-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2507"
+          }]
+        }]
+      }, {
+        "date": "1886-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2508"
+          }]
+        }]
+      }, {
+        "date": "1886-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2509"
+          }]
+        }]
+      }, {
+        "date": "1886-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2510"
+          }]
+        }]
+      }, {
+        "date": "1886-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2511"
+          }]
+        }]
+      }, {
+        "date": "1886-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2512"
+          }]
+        }]
+      }, {
+        "date": "1887-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2513"
+          }]
+        }]
+      }, {
+        "date": "1887-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2514"
+          }]
+        }]
+      }, {
+        "date": "1887-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2515"
+          }]
+        }]
+      }, {
+        "date": "1887-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2516"
+          }]
+        }]
+      }, {
+        "date": "1887-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2517"
+          }]
+        }]
+      }, {
+        "date": "1887-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2518"
+          }]
+        }]
+      }, {
+        "date": "1887-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2519"
+          }]
+        }]
+      }, {
+        "date": "1887-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2520"
+          }]
+        }]
+      }, {
+        "date": "1887-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2521"
+          }]
+        }]
+      }, {
+        "date": "1887-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2522"
+          }]
+        }]
+      }, {
+        "date": "1887-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2523"
+          }]
+        }]
+      }, {
+        "date": "1887-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2524"
+          }]
+        }]
+      }, {
+        "date": "1888-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2525"
+          }]
+        }]
+      }, {
+        "date": "1888-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2526"
+          }]
+        }]
+      }, {
+        "date": "1888-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2527"
+          }]
+        }]
+      }, {
+        "date": "1888-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2528"
+          }]
+        }]
+      }, {
+        "date": "1888-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2529"
+          }]
+        }]
+      }, {
+        "date": "1888-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2530"
+          }]
+        }]
+      }, {
+        "date": "1888-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2531"
+          }]
+        }]
+      }, {
+        "date": "1888-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2532"
+          }]
+        }]
+      }, {
+        "date": "1888-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2533"
+          }]
+        }]
+      }, {
+        "date": "1888-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2534"
+          }]
+        }]
+      }, {
+        "date": "1888-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2535"
+          }]
+        }]
+      }, {
+        "date": "1888-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2536"
+          }]
+        }]
+      }, {
+        "date": "1889-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2537"
+          }]
+        }]
+      }, {
+        "date": "1889-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2538"
+          }]
+        }]
+      }, {
+        "date": "1889-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2539"
+          }]
+        }]
+      }, {
+        "date": "1889-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2540"
+          }]
+        }]
+      }, {
+        "date": "1889-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2541"
+          }]
+        }]
+      }, {
+        "date": "1889-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2542"
+          }]
+        }]
+      }, {
+        "date": "1889-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2543"
+          }]
+        }]
+      }, {
+        "date": "1889-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2544"
+          }]
+        }]
+      }, {
+        "date": "1889-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2545"
+          }]
+        }]
+      }, {
+        "date": "1889-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2546"
+          }]
+        }]
+      }, {
+        "date": "1889-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2547"
+          }]
+        }]
+      }, {
+        "date": "1889-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2548"
+          }]
+        }]
+      }, {
+        "date": "1890-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2549"
+          }]
+        }]
+      }, {
+        "date": "1890-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2550"
+          }]
+        }]
+      }, {
+        "date": "1890-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2551"
+          }]
+        }]
+      }, {
+        "date": "1890-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2552"
+          }]
+        }]
+      }, {
+        "date": "1890-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2553"
+          }]
+        }]
+      }, {
+        "date": "1890-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2554"
+          }]
+        }]
+      }, {
+        "date": "1890-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2555"
+          }]
+        }]
+      }, {
+        "date": "1890-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2556"
+          }]
+        }]
+      }, {
+        "date": "1890-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2557"
+          }]
+        }]
+      }, {
+        "date": "1890-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2558"
+          }]
+        }]
+      }, {
+        "date": "1890-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2559"
+          }]
+        }]
+      }, {
+        "date": "1890-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2560"
+          }]
+        }]
+      }, {
+        "date": "1891-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2561"
+          }]
+        }]
+      }, {
+        "date": "1891-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2562"
+          }]
+        }]
+      }, {
+        "date": "1891-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2563"
+          }]
+        }]
+      }, {
+        "date": "1891-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2564"
+          }]
+        }]
+      }, {
+        "date": "1891-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2565"
+          }]
+        }]
+      }, {
+        "date": "1891-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2566"
+          }]
+        }]
+      }, {
+        "date": "1891-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2567"
+          }]
+        }]
+      }, {
+        "date": "1891-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2568"
+          }]
+        }]
+      }, {
+        "date": "1891-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2569"
+          }]
+        }]
+      }, {
+        "date": "1891-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2570"
+          }]
+        }]
+      }, {
+        "date": "1891-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2571"
+          }]
+        }]
+      }, {
+        "date": "1891-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2572"
+          }]
+        }]
+      }, {
+        "date": "1892-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2573"
+          }]
+        }]
+      }, {
+        "date": "1892-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2574"
+          }]
+        }]
+      }, {
+        "date": "1892-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2575"
+          }]
+        }]
+      }, {
+        "date": "1892-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2576"
+          }]
+        }]
+      }, {
+        "date": "1892-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2577"
+          }]
+        }]
+      }, {
+        "date": "1892-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2578"
+          }]
+        }]
+      }, {
+        "date": "1892-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2579"
+          }]
+        }]
+      }, {
+        "date": "1892-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2580"
+          }]
+        }]
+      }, {
+        "date": "1892-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2581"
+          }]
+        }]
+      }, {
+        "date": "1892-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2582"
+          }]
+        }]
+      }, {
+        "date": "1892-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2583"
+          }]
+        }]
+      }, {
+        "date": "1892-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2584"
+          }]
+        }]
+      }, {
+        "date": "1992-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "3782"
+          }]
+        }]
+      }, {
+        "date": "1992-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "3783"
+          }]
+        }]
+      }, {
+        "date": "1992-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "3784"
+          }]
+        }]
+      }, {
+        "date": "1994-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "3797"
+          }]
+        }]
+      }, {
+        "date": "1994-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "3798"
+          }]
+        }]
+      }, {
+        "date": "1997-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "3838"
+          }]
+        }]
+      }, {
+        "date": "2001-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "3881"
+          }]
+        }]
+      }, {
+        "date": "2001-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "3882"
+          }]
+        }]
+      }, {
+        "date": "2001-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "3883"
+          }]
+        }]
+      }, {
+        "date": "2001-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "3884"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "1860-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6702",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2200"
+          }]
+        }]
+      }, {
+        "date": "1861-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "2201"
+          }]
+        }]
+      }],
+      "percentDifference": -1592.08
+    }]
+  }, {
+    "placeDcid": "psmslId/1489",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "1999-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8645"
+          }]
+        }]
+      }, {
+        "date": "2002-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8682"
+          }]
+        }]
+      }, {
+        "date": "2002-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8687"
+          }]
+        }]
+      }, {
+        "date": "2002-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8689"
+          }]
+        }]
+      }, {
+        "date": "2003-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8691"
+          }]
+        }]
+      }, {
+        "date": "2003-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8693"
+          }]
+        }]
+      }, {
+        "date": "2006-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8726"
+          }]
+        }]
+      }, {
+        "date": "2006-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8727"
+          }]
+        }]
+      }, {
+        "date": "2008-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8761"
+          }]
+        }]
+      }, {
+        "date": "2009-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8766"
+          }]
+        }]
+      }, {
+        "date": "2009-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8768"
+          }]
+        }]
+      }, {
+        "date": "2009-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8772"
+          }]
+        }]
+      }, {
+        "date": "2015-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8837"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2003-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6862",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8690"
+          }]
+        }]
+      }, {
+        "date": "2003-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "8691"
+          }]
+        }]
+      }],
+      "percentDifference": -1557.29
+    }]
+  }, {
+    "placeDcid": "psmslId/1103",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "1978-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4180"
+          }]
+        }]
+      }, {
+        "date": "1980-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4212"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "1980-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6990",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4211"
+          }]
+        }]
+      }, {
+        "date": "1980-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4212"
+          }]
+        }]
+      }],
+      "percentDifference": -1530.6
+    }]
+  }, {
+    "placeDcid": "psmslId/2279",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2009-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "1180"
+          }]
+        }]
+      }, {
+        "date": "2009-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "1188"
+          }]
+        }]
+      }, {
+        "date": "2009-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "1189"
+          }]
+        }]
+      }, {
+        "date": "2011-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "1206"
+          }]
+        }]
+      }, {
+        "date": "2014-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "1238"
+          }]
+        }]
+      }, {
+        "date": "2014-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "1247"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2011-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6925",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "1205"
+          }]
+        }]
+      }, {
+        "date": "2011-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "1206"
+          }]
+        }]
+      }],
+      "percentDifference": -1544.03
+    }]
+  }, {
+    "placeDcid": "psmslId/2311",
+    "statVarDcid": "Mean_RevisedLocalReference_SeaLevel",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "mm",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "1999-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4852"
+          }]
+        }]
+      }, {
+        "date": "2006-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4941"
+          }]
+        }]
+      }, {
+        "date": "2006-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4942"
+          }]
+        }]
+      }, {
+        "date": "2006-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4943"
+          }]
+        }]
+      }, {
+        "date": "2006-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4944"
+          }]
+        }]
+      }, {
+        "date": "2006-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4945"
+          }]
+        }]
+      }, {
+        "date": "2007-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4946"
+          }]
+        }]
+      }, {
+        "date": "2007-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4947"
+          }]
+        }]
+      }, {
+        "date": "2007-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4948"
+          }]
+        }]
+      }, {
+        "date": "2007-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4949"
+          }]
+        }]
+      }, {
+        "date": "2007-05-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4950"
+          }]
+        }]
+      }, {
+        "date": "2007-06-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4951"
+          }]
+        }]
+      }, {
+        "date": "2007-07-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4952"
+          }]
+        }]
+      }, {
+        "date": "2007-08-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4953"
+          }]
+        }]
+      }, {
+        "date": "2007-09-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4954"
+          }]
+        }]
+      }, {
+        "date": "2007-10-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4955"
+          }]
+        }]
+      }, {
+        "date": "2007-11-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4956"
+          }]
+        }]
+      }, {
+        "date": "2007-12-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4957"
+          }]
+        }]
+      }, {
+        "date": "2008-01-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4958"
+          }]
+        }]
+      }, {
+        "date": "2008-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4959"
+          }]
+        }]
+      }, {
+        "date": "2008-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4960"
+          }]
+        }]
+      }, {
+        "date": "2008-04-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4961"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "1999-02-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "6966",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4851"
+          }]
+        }]
+      }, {
+        "date": "1999-03-01",
+        "values": [{
+          "value": {
+            "type": "NUMBER",
+            "value": "-99999",
+            "column": "height"
+          },
+          "locations": [{
+            "file": "PSMSL_data_commons.csv",
+            "lineNumber": "4852"
+          }]
+        }]
+      }],
+      "percentDifference": -1535.53
+    }]
+  }],
+  "commandArgs": {
+    "existenceChecks": true,
+    "resolution": "RESOLUTION_MODE_LOCAL",
+    "numThreads": 1,
+    "statChecks": true,
+    "observationAbout": false,
+    "allowNanSvobs": false
+  }
+}

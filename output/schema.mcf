@@ -1,0 +1,17 @@
+Node: dcid:dc/g/Stanford
+typeOf: dcs:StatVarGroup
+name: "Stanford"
+specializationOf: dcid:dc/g/Root
+
+Node: dcid:dc/g/Stanford_Center_For_Ocean_Solutions
+typeOf: dcs:StatVarGroup
+name: "Center for Ocean Solutions"
+specializationOf: dcid:dc/g/Stanford
+isOverrideSvgRoot: schema:True
+
+Node: dcid:Mean_RevisedLocalReference_SeaLevel
+typeOf: dcs:StatisticalVariable
+measuredProperty: dcid:Mean_RevisedLocalReference_SeaLevel
+statType: dcs:measuredValue
+description: "Revised Local Reference for Sea Level"
+memberOf: dcid:dc/g/Stanford_Center_For_Ocean_Solutions

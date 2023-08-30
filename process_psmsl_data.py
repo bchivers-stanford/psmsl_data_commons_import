@@ -35,7 +35,7 @@ with open(catalogue_file,'r') as opened_file:
 catalogue_df = pd.DataFrame(catalogue_prep_list)
 
 # Next, we process all the mean sea level information
-file_list = glob.glob("../rlr_monthly/data/*")
+file_list = glob.glob("rlr_monthly/data/*")
 
 # A list to hold dicts for a data frame
 data_prep_list = []
@@ -76,7 +76,7 @@ merged_df['date'] = pd.to_datetime(merged_df[['year','month','day']])
 merged_df['unit'] = 'mm'
 
 #TideGaugeStation DCID
-merged_df['dcid:TideGaugeStation'] = np.repeat("psmslId/",len(merged_df))+merged_df['id'].apply(lambda x: str(x))
+merged_df['TideGaugeStation'] = np.repeat("psmslId/",len(merged_df))+merged_df['id'].apply(lambda x: str(x))
 
 # Filter out missing flags, data flags, and values less than 0
 filtered_df = merged_df[~merged_df['missing'] & ~merged_df['dataflag'] & merged_df['height']>-1]
@@ -85,4 +85,4 @@ filtered_df = merged_df[~merged_df['missing'] & ~merged_df['dataflag'] & merged_
 filtered_df.drop(['year','month','missing','isMtl','dataflag','flag','day'], axis=1, inplace=True)
 
 #Save final output
-filtered_df.to_csv("output/PMSML_data_commons.csv",index=False)
+filtered_df.to_csv("output/PSMSL_data_commons.csv",index=False)
